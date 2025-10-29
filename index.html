@@ -5,26 +5,23 @@
   <head>
     <meta charset="UTF-8">
     <title> Exercise 7 </title>
-
-    <!-- Header 1 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     
     <!-- paragraph -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
    
-    <!-- Header 2 -->
+    <!-- Header 1 and Header 2 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
     
+    
     <!-- Header 3 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
     
     <style>
       html {
@@ -40,22 +37,23 @@
       }
 
       h1 {
-        font-size: 2.2em;
+        font-size: 3em;
         color: #151d18;
         line-height: 1.5;
-        font-family: "Archivo Black", sans-serif
-        
+        font-family: "PT Sans Narrow", sans-serif;
+        text-align: center; 
       }
 
       h2 {
         margin: .2em;
         font-size: 1.5em;
         font-family: "PT Sans Narrow", sans-serif;
+        text-align: center;
       }
 
       h3 {
-        font-size: 1.2em;
-        font-family: "Lexend Deca", sans-serif
+        font-size: 1.1em;
+        font-family: "Dosis", sans-serif
       }
       
       p {
@@ -70,11 +68,17 @@
         
       }
 
+      .subtitle {
+        margin: .2em;
+        font-size: 1.5em;
+        font-family: "PT Sans Narrow", sans-serif;
+        text-align: center;
+      }
       .container {
         display: grid;
         grid-template-columns: 30% 70%;
         gap: 25px;
-        width: 1200px;
+        width: 1000px; /* Changed for aestetic puyrposes */
         margin: auto;
 
       }
@@ -92,16 +96,17 @@
     <div class="container">
       <div class="grid-item">
         <h1>
-          Spinach, Tofu and Sesame Stir-Fry
+          <b>Tofu, Spinach and Sesame Stir-Fry</b>
         </h1>
 
-        <h3>
+        <div class="subtitle">
           By: Martha Rose Shulman
-        </h3>
-
-        <h3>
+        </div>
+        
+        <div class="subtitle">
           Yield: 3 Servings
-        </h3>
+        </div>
+        
       </div>
 
       <div class="grid-item">
@@ -111,9 +116,11 @@
 
       <div class="grid-item">
         <h2>
-          Ingredients
+          <u>Ingredients </u>
         </h2>
-
+<p>
+  
+     
         <ul>
           <li>1 tablespoon canola oil </li>
           <li> ½ pound tofu, cut in small dice </li>
@@ -125,12 +132,13 @@
           <li> 2 tablespoons toasted sesame seeds</li>
           <li> 1 teaspoon sesame oil</li>
         </ul>
+      </p>
       </div>
 
 
       <div class="grid-item">
         <h2>
-          Preparation
+          <u>Preparation</u>
         </h2>
 
         <h3>
